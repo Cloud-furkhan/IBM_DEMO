@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">MyWebsite</h1>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="hero">
+        <div class="container">
+            <h2>Welcome to MyWebsite</h2>
+            <p>Your one-stop solution for web development.</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </section>
+    <section class="cards">
+        <div class="container">
+            <div class="card">
+                <h3>Card 1</h3>
+                <p>This is a description for card 1.</p>
+            </div>
+            <div class="card">
+                <h3>Card 2</h3>
+                <p>This is a description for card 2.</p>
+            </div>
+            <div class="card">
+                <h3>Card 3</h3>
+                <p>This is a description for card 3.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
